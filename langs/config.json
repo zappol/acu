@@ -1,0 +1,20 @@
+{
+  "en": {
+    "ver": 1,
+    "displayName": "English"
+  },
+  "fr": {
+    "ver": 1,
+    "displayName": "French/Français"
+  },
+  "id": {
+    "ver": 1,
+    "displayName": "Indonesian",
+    "src":""
+  },
+  "hi": {
+    "ver": 1,
+    "displayName": "Hindi/हिन्दी",
+    "src":"https://cdn.rawgit.com/zappol/acu/e5b641b2/langs/hi.zip"
+  }
+}
