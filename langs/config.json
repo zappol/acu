@@ -15,6 +15,6 @@
   "hi": {
     "ver": 1,
     "displayName": "Hindi/हिन्दी",
-    "src":"https://cdn.rawgit.com/zappol/acu/e5b641b2/langs/hi.zip"
+    "src":"https://rawcdn.githack.com/zappol/acu/b868b40/langs/hi.zip"
   }
 }
