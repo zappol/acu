@@ -10,11 +10,16 @@
   "id": {
     "ver": 1,
     "displayName": "Indonesian",
-    "src":""
+    "src": ""
   },
   "hi": {
     "ver": 1,
     "displayName": "Hindi/हिन्दी",
-    "src":"https://rawcdn.githack.com/zappol/acu/b868b40/langs/hi.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/b868b40/langs/hi.zip"
+  },
+  "es": {
+    "ver": 2,
+    "displayName": "Spanish/Español",
+    "src": "https://rawcdn.githack.com/zappol/acu/37518f0/langs/es.zip"
   }
 }
