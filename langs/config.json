@@ -10,7 +10,6 @@
   "id": {
     "ver": 1,
     "displayName": "Indonesian",
-    "src": ""
   },
   "hi": {
     "ver": 1,
@@ -21,5 +20,19 @@
     "ver": 2,
     "displayName": "Spanish/Español",
     "src": "https://rawcdn.githack.com/zappol/acu/37518f0/langs/es.zip"
+  },
+  "ko":{
+	"ver": 1,
+	"displayName": "Korean/한국어"
+  },
+  "ta":{
+    "ver": 1,
+    "displayName": "Tamil/தமிழ்",
+    "src": "https://rawcdn.githack.com/zappol/acu/7e5d773/langs/ta.zip"
+  },
+  "pt":{
+    "ver": 1,
+    "displayName": "",
+    "src": "https://rawcdn.githack.com/zappol/acu/9ea3610/langs/pt.zip"
   }
 }
