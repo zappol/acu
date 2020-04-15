@@ -1,12 +1,12 @@
 body {
-  margin: 2em;
+  overflow: auto;
 }
 aside {
     background: #2f3da6; /* same color as selected state on site menu */
     padding: 0.3em 1em;
     border-radius: 3px;
     color: #fff;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 textarea {
   width: 100%;
@@ -27,7 +27,7 @@ textarea {
   background: rgb(28, 184, 65); /* this is a green */
 }
 .button-xlarge {
-  font-size: 125%;
+  font-size: 110%;
 }
 button {
   float: right;
