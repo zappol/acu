@@ -13,5 +13,12 @@ pipeline {
                 copyArtifacts projectName: "build_tcm_lang_assets", target: './langs/', flatten: true
             }
         }
+
+        
+        stage('Add to git') {
+            steps {
+                bat 'git add langs'
+            }
+        }
     }
 }
