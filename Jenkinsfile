@@ -28,8 +28,10 @@ pipeline {
 
         stage('get git commit id and update lang config.'){
             steps{
-                commitId = bat(returnStdout: true, script: 'git rev-parse --short HEAD')
-                bat 'python scripts/update_langs_config.py ${lang_version} ${commitId}'
+                script{
+                    commitId = bat(returnStdout: true, script: 'git rev-parse --short HEAD')
+                    bat 'python scripts/update_langs_config.py ${lang_version} ${commitId}'
+                }
             }
         }
     }
