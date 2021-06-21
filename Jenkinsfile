@@ -22,7 +22,7 @@ pipeline {
         
         stage('Add to git') {
             steps {
-                bat 'git add langs'
+                bat 'git add langs && git commit -m "add lang zips" '
             }
         }
 
@@ -33,6 +33,12 @@ pipeline {
                     commitId = commitId.readLines().drop(1).join(" ")
                     bat "python scripts/update_langs_config.py ${lang_version} ${commitId}"
                 }
+            }
+        }
+
+        stage('commit and push'){
+            steps{
+                bat 'git commit -m "update lang config" && git push'
             }
         }
     }

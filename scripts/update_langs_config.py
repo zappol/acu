@@ -38,7 +38,7 @@ template = {
     "src": "https://rawcdn.githack.com/zappol/acu/$COMMIT/langs/pt.zip"
   },
   "ru":{
-    "displayName": "Russian/"
+    "displayName": "Russian/русский"
   }
 }
 
