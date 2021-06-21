@@ -1,38 +1,47 @@
 {
   "en": {
-    "ver": 1,
-    "displayName": "English"
+    "ver": "3",
+    "displayName": "English",
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/en.zip"
   },
   "fr": {
-    "ver": 1,
-    "displayName": "French/Français"
+    "ver": "3",
+    "displayName": "French/Français",
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/fr.zip"
   },
   "id": {
-    "ver": 1,
-    "displayName": "Indonesian"
+    "ver": "3",
+    "displayName": "Indonesian",
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/id.zip"
   },
   "hi": {
-    "ver": 1,
+    "ver": "3",
     "displayName": "Hindi/हिन्दी",
-    "src": "https://rawcdn.githack.com/zappol/acu/b868b40/langs/hi.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/hi.zip"
   },
   "es": {
-    "ver": 2,
+    "ver": "3",
     "displayName": "Spanish/Español",
-    "src": "https://rawcdn.githack.com/zappol/acu/37518f0/langs/es.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/es.zip"
   },
-  "ko":{
-	"ver": 1,
-	"displayName": "Korean/한국어"
+  "ko": {
+    "ver": "3",
+    "displayName": "Korean/한국어",
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/ko.zip"
   },
-  "ta":{
-    "ver": 1,
+  "ta": {
+    "ver": "3",
     "displayName": "Tamil/தமிழ்",
-    "src": "https://rawcdn.githack.com/zappol/acu/7e5d773/langs/ta.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/ta.zip"
   },
-  "pt":{
-    "ver": 1,
+  "pt": {
+    "ver": "3",
     "displayName": "Portuguese/Português",
-    "src": "https://rawcdn.githack.com/zappol/acu/9ea3610/langs/pt.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/pt.zip"
+  },
+  "ru": {
+    "displayName": "Russian/",
+    "ver": "3",
+    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/ru.zip"
   }
 }
