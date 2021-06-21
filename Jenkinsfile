@@ -22,7 +22,7 @@ pipeline {
         
         stage('Add to git') {
             steps {
-                bat 'git add langs && git commit -m "add lang zips" '
+                bat 'git add langs && git commit -m "add lang zips" .'
             }
         }
 
@@ -38,7 +38,7 @@ pipeline {
 
         stage('commit and push'){
             steps{
-                bat 'git commit -m "update lang config" && git push'
+                bat 'git commit -m "update lang config" . && git push'
             }
         }
     }
