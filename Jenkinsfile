@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    parameters{
+        string(name: 'lang_version', defaultValue: 1, description: "The language version to publish")
+    }
+
+
     stages {
         stage('Git Status') {
             steps {
@@ -18,6 +23,13 @@ pipeline {
         stage('Add to git') {
             steps {
                 bat 'git add langs'
+            }
+        }
+
+        stage('get git commit id and update lang config.'){
+            steps{
+                commitId = bat(returnStdout: true, script: 'git rev-parse --short HEAD')
+                bat 'python scripts/update_langs_config.py ${lang_version} ${commitId}'
             }
         }
     }
