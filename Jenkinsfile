@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters{
-        string(name: 'lang_version', defaultValue: 1, description: "The language version to publish")
+        string(name: 'lang_version', defaultValue: "1", description: "The language version to publish")
     }
 
 
