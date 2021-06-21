@@ -38,7 +38,7 @@ pipeline {
 
         stage('commit and push'){
             steps{
-                bat 'git commit -m "update lang config" . && git push'
+                bat 'git commit -m "update lang config" . && git push origin HEAD:master'
             }
         }
     }
