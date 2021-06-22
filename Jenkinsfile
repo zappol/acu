@@ -41,7 +41,6 @@ pipeline {
                 bat 'git commit -m "update lang config" .'
                 withCredentials(usernamePassword(passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME' )){
                  // Get some code from a GitHub repository
-                bat(""
                     bat("git push origin HEAD:master")
                 }
             }
