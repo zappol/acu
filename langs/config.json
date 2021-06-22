@@ -1,47 +1,47 @@
 {
   "en": {
-    "ver": "3",
+    "ver": "1",
     "displayName": "English",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/en.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/en.zip"
   },
   "fr": {
-    "ver": "3",
+    "ver": "1",
     "displayName": "French/Français",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/fr.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/fr.zip"
   },
   "id": {
-    "ver": "3",
+    "ver": "1",
     "displayName": "Indonesian",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/id.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/id.zip"
   },
   "hi": {
-    "ver": "3",
+    "ver": "1",
     "displayName": "Hindi/हिन्दी",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/hi.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/hi.zip"
   },
   "es": {
-    "ver": "3",
+    "ver": "1",
     "displayName": "Spanish/Español",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/es.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/es.zip"
   },
   "ko": {
-    "ver": "3",
+    "ver": "1",
     "displayName": "Korean/한국어",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/ko.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/ko.zip"
   },
   "ta": {
-    "ver": "3",
+    "ver": "1",
     "displayName": "Tamil/தமிழ்",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/ta.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/ta.zip"
   },
   "pt": {
-    "ver": "3",
+    "ver": "1",
     "displayName": "Portuguese/Português",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/pt.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/pt.zip"
   },
   "ru": {
-    "displayName": "Russian/",
-    "ver": "3",
-    "src": "https://rawcdn.githack.com/zappol/acu/10290/langs/ru.zip"
+    "displayName": "Russian/русский",
+    "ver": "1",
+    "src": "https://rawcdn.githack.com/zappol/acu/0f61eb8/langs/ru.zip"
   }
 }
