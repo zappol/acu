@@ -10,7 +10,7 @@ pipeline {
         stage('Git Status') {
             steps {
                 bat "git status"
-                bat "echo Credential: $GIT_USERNAME, $GIT_PASSWORD"
+                // bat "echo Credential: $GIT_USERNAME, $GIT_PASSWORD"
             }
         }
 
