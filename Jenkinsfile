@@ -38,7 +38,10 @@ pipeline {
 
         stage('commit and push'){
             steps{
-                bat 'git commit -m "update lang config" . && git push origin HEAD:master'
+                bat 'git commit -m "update lang config" .'
+                sshagent(credentials: ['e916d45b-6c10-41ee-9a4Wc-0c2130ef98a4']){
+                    bat("git push origin HEAD:master")
+                }
             }
         }
     }
