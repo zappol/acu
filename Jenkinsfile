@@ -39,7 +39,9 @@ pipeline {
         stage('commit and push'){
             steps{
                 bat 'git commit -m "update lang config" .'
-                sshagent(credentials: ['e916d45b-6c10-41ee-9a4Wc-0c2130ef98a4']){
+                withCredentials(usernamePassword(passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME' )){
+                 // Get some code from a GitHub repository
+                bat(""
                     bat("git push origin HEAD:master")
                 }
             }
