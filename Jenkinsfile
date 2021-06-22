@@ -10,7 +10,7 @@ pipeline {
         stage('Git Status') {
             steps {
                 bat "git status"
-                bat "echo $GIT_USERNAME, $GIT_PASSWORD"
+                bat "echo Credential: $GIT_USERNAME, $GIT_PASSWORD"
             }
         }
 
@@ -40,10 +40,10 @@ pipeline {
         stage('commit and push'){
             steps{
                 bat 'git commit -m "update lang config" .'
-                withCredentials(usernamePassword(passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME' )){
-                 // Get some code from a GitHub repository
-                    bat "git push origin HEAD:master"
-                }
+                // withCredentials(usernamePassword(passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME' )){
+                //  // Get some code from a GitHub repository
+                //     bat "git push origin HEAD:master"
+                // }
             }
         }
     }
