@@ -23,7 +23,7 @@ pipeline {
         
         stage('Add to git') {
             steps {
-                bat 'git add langs && git commit -m "add lang zips" .'
+                bat 'call scripts/commit_lang_zips.bat'
             }
         }
 
