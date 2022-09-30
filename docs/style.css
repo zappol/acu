@@ -1,5 +1,11 @@
 body {
   overflow: auto;
+  /* margin: 10px; */
+  /* background-color: lightgray; */
+}
+
+a{
+  color: green;
 }
 aside {
     background: #2f3da6; /* same color as selected state on site menu */
