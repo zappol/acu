@@ -16,7 +16,7 @@ pipeline {
 
         stage('Get artifacts') {
             steps {
-                copyArtifacts projectName: "build_tcm_lang_assets", target: './langs/', flatten: true
+                copyArtifacts projectName: "0__build_tcm_lang_assets", target: './langs/', flatten: true
             }
         }
 
