@@ -39,11 +39,11 @@ pipeline {
 
         stage('commit and push'){
             steps{
-                bat 'git commit -m "update lang version to ${lang_version}" .'
+                bat "git commit -m \"update lang version to ${lang_version}\" ."
                 // withCredentials(usernamePassword(passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME' )){
                 //  // Get some code from a GitHub repository
                 // .ssh is configured in .ssh folder.
-                    bat "git push origin HEAD:master"
+                bat "git push origin HEAD:master"
                 // }
             }
         }
