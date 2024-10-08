@@ -1,52 +1,52 @@
 {
   "en": {
-    "ver": "7",
+    "ver": "8",
     "displayName": "English",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/en.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/en.zip"
   },
   "fr": {
-    "ver": "7",
+    "ver": "8",
     "displayName": "French/Français",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/fr.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/fr.zip"
   },
   "id": {
-    "ver": "7",
+    "ver": "8",
     "displayName": "Indonesian",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/id.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/id.zip"
   },
   "hi": {
-    "ver": "7",
+    "ver": "8",
     "displayName": "Hindi/हिन्दी",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/hi.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/hi.zip"
   },
   "es": {
-    "ver": "7",
+    "ver": "8",
     "displayName": "Spanish/Español",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/es.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/es.zip"
   },
   "ko": {
-    "ver": "7",
+    "ver": "8",
     "displayName": "Korean/한국어",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/ko.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/ko.zip"
   },
   "ta": {
-    "ver": "7",
+    "ver": "8",
     "displayName": "Tamil/தமிழ்",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/ta.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/ta.zip"
   },
   "pt": {
-    "ver": "7",
+    "ver": "8",
     "displayName": "Portuguese/Português",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/pt.zip"
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/pt.zip"
   },
   "ru": {
     "displayName": "Russian/русский",
-    "ver": "7",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/ru.zip"
+    "ver": "8",
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/ru.zip"
   },
   "ar": {
     "displayName": "Arabic/عربي",
-    "ver": "7",
-    "src": "https://rawcdn.githack.com/zappol/acu/972b8e1/langs/ar.zip"
+    "ver": "8",
+    "src": "https://rawcdn.githack.com/zappol/acu/05bbd20/langs/ar.zip"
   }
 }
