@@ -39,6 +39,9 @@ template = {
   },
   "ru":{
     "displayName": "Russian/русский"
+  },
+  "ar":{
+     "displayName": "Arabic/عربي"
   }
 }
 
